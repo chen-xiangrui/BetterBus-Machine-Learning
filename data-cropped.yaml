@@ -1,0 +1,5 @@
+train: betterbus-ml/train-cropped/images
+val: betterbus-ml/valid-cropped/images
+
+nc: 1
+names: ['bus-number']

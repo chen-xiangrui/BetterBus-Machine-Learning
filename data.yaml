@@ -1,0 +1,5 @@
+train: betterbus-ml/train/images
+val: betterbus-ml/valid/images
+
+nc: 1
+names: ['bus']
