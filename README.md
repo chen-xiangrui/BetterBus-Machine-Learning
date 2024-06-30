@@ -5,6 +5,9 @@ This repository allows you to be able to perform generation of bus number audios
 ### train/images
 We store our images used for training in the train folder, where we upload the raw images and augmented images we collected from data augmentation.
 
+### train/labels
+We used OpenLabelling, an image labelling tool, to create the textfiles containing the class name (bus) and the bounding boxes information.
+
 ### train.py
 After storing the images, we run the train.py file, which loads the YOLOv8 model and performs training using the set of image datasets from train/ directory.
 
